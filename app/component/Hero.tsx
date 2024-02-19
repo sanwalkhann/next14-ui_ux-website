@@ -48,17 +48,16 @@ export function Hero() {
             className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]"
           />
 
-
           <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">
             <p className="text-[#FFFFFF] text-center lg:text-[18px]">
               Trusted by these companies
             </p>
-            <div className="grid grid-cols-3 grid-rows-2 items-center justify-center justify-items-center px-[20px] align-middle  lg:grid-cols-5">
-              <Image src={Google} alt="" />
-              <Image src={Slack} alt="" />
-              <Image src={Truspilot} alt="" />
-              <Image src={Cnn} alt="" />
-              <Image src={Cluth} alt="" />
+            <div className="flex flex-wrap justify-center px-[20px] sm:flex-row sm:justify-between">
+              <Image src={Google} alt="" className="m-2" />
+              <Image src={Slack} alt="" className="m-2" />
+              <Image src={Truspilot} alt="" className="m-2" />
+              <Image src={Cnn} alt="" className="m-2" />
+              <Image src={Cluth} alt="" className="m-2" />
             </div>
           </div>
         </div>
